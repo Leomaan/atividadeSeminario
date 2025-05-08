@@ -12,6 +12,7 @@ public class Main {
         som.ligar();
         luz.apagar();
         projetor.ligar();
+        dvd.play("Enrolados");
 
 
     }
