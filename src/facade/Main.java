@@ -9,5 +9,10 @@ public class Main {
 
         Fachada_cinema cinema = new Fachada_cinema();
 
+        som.ligar();
+        luz.apagar();
+        projetor.ligar();
+
+
     }
 }
