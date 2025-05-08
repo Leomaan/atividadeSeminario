@@ -5,7 +5,6 @@ public class LigarLampada implements Command{
     public LigarLampada(Lampada lampada) {
         this.lampada = lampada;
     }
-
     @Override
     public void executar() {
         lampada.ligar();
